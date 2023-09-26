@@ -4,19 +4,8 @@ import Profile from "./Profile";
 import AboutSection from "./AboutSection";
 import ExperienceSection from "./ExperienceSection";
 import Projects from "./Projects";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 const NavBar = () => {
-  const [userLogin, setUserLogin] = useState(false);
-
-  const { isLoggedIn, setIsloggedIn } = useAuth();
-  const loginWindowShow = (e) => {
-    e.preventDefault();
-    if (isLoggedIn) {
-      setIsloggedIn(false);
-    }
-    setUserLogin(!userLogin);
-  };
-
   useEffect(() => {
     const sections = document.querySelectorAll("section");
     const navLinks = document.querySelectorAll(".nav-link");
@@ -74,7 +63,7 @@ const NavBar = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [userLogin, isLoggedIn]);
+  }, []);
 
   return (
     <div className=" lg:flex lg:justify-between lg:gap-4">
@@ -157,49 +146,30 @@ const NavBar = () => {
               <span></span>
             </a>
           </li>
-          <li className="mr-5 text-xs navs">
-            <a
-              className="block hover:text-slate-200"
-              href="#"
-              onClick={loginWindowShow}
-            >
-              <i
-                className="fa fa-user"
-                aria-hidden="true"
-              ></i>
-              <span></span>
-            </a>
-          </li>
         </ul>
       </header>
       <main
         id="content"
         className="pt-24 lg:w-1/2 lg:py-24"
       >
-        {userLogin && isLoggedIn && <Profile />}
-        {userLogin && !isLoggedIn && <Login />}
-        {!userLogin && !isLoggedIn && (
-          <>
-            <section
-              id="about"
-              className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
-            >
-              <AboutSection />
-            </section>
-            <section
-              id="experience"
-              className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
-            >
-              <ExperienceSection />
-            </section>
-            <section
-              id="projects"
-              className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
-            >
-              <Projects />
-            </section>
-          </>
-        )}
+        <section
+          id="about"
+          className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+        >
+          <AboutSection />
+        </section>
+        <section
+          id="experience"
+          className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+        >
+          <ExperienceSection />
+        </section>
+        <section
+          id="projects"
+          className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+        >
+          <Projects />
+        </section>
       </main>
     </div>
   );
