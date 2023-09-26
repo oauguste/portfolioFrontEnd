@@ -61,16 +61,17 @@ const Projects = () => {
                       {project.description}
                     </p>
                     <ul className="flex flex-wrap mt-2">
-                      {project.techStack.map((tech) => (
-                        <li
-                          className="mr-1.5 mt-2"
-                          key={tech.tech.id}
-                        >
-                          <div className="flex items-center px-3 py-1 text-xs font-medium leading-5 text-teal-300 rounded-full bg-teal-400/10 ">
-                            {tech.tech.name.toUpperCase()}
-                          </div>
-                        </li>
-                      ))}
+                      {project.techStack &&
+                        project.techStack.map((tech) => (
+                          <li
+                            className="mr-1.5 mt-2"
+                            key={tech.tech.id}
+                          >
+                            <div className="flex items-center px-3 py-1 text-xs font-medium leading-5 text-teal-300 rounded-full bg-teal-400/10 ">
+                              {tech.tech.name.toUpperCase()}
+                            </div>
+                          </li>
+                        ))}
                     </ul>
                   </div>
                   <img
