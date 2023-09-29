@@ -17,7 +17,7 @@ const Projects = () => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href=""
+                    href="https://main--superlative-marzipan-490e1d.netlify.app/"
                     className="inline-flex items-baseline text-base font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link"
                   >
                     <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
@@ -25,18 +25,24 @@ const Projects = () => {
                   </a>
                 </h3>
                 <p className="mt-2 text-sm leading-normal">
-                  Interactive photo-tagging application
-                  inspired by the classic Where’s Waldo?
-                  game. Users are presented with a detailed
-                  photograph, and their task is to locate
-                  and tag various characters hidden within
-                  the image. Upon selection, the backend
-                  verifies if the tagged location matches
-                  the actual position of the chosen
-                  character. This comprehensive project
-                  encompassed both front-end interactivity
-                  and backend verification, resulting in a
-                  seamless and engaging user experience.
+                  This Node.js-based blogging platform,
+                  built with Express, offers an intricate
+                  backend system for comprehensive user
+                  management, post creation, and image
+                  handling. Leveraging Passport.js, it
+                  provides robust user authentication via
+                  registration, login, and JWT-based
+                  methods. Users can seamlessly create,
+                  update, and delete blog posts, with the
+                  added capability to upload multimedia
+                  content, thanks to the integrated multer
+                  middleware. With custom middleware layers
+                  for validation, error management, and user
+                  authorization, coupled with precise
+                  database interactions, this platform
+                  epitomizes a modern, secure, and efficient
+                  web application backend, ready for
+                  real-world deployment.
                 </p>
                 <ul className="flex flex-wrap mt-2">
                   <li className="mr-1.5 mt-2">
@@ -80,12 +86,20 @@ const Projects = () => {
               />
             </div>
             <a
-              href="https://github.com/YOUR_USERNAME/WHERES_WALDO_REPO_LINK"
+              href="https://github.com/oauguste/blogApi"
               className="inline-block px-4 py-2 mt-5 text-sm font-medium transition duration-150 ease-in-out border rounded-full text-slate-200 border-slate-200/10 hover:text-teal-300 hover:border-teal-300 focus:outline-none focus:border-teal-300"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Link to Github
+              Back End Github
+            </a>
+            <a
+              href="https://github.com/oauguste/blogsFrontEnd"
+              className="inline-block px-4 py-2 mt-5 ml-4 text-sm font-medium transition duration-150 ease-in-out border rounded-full text-slate-200 border-slate-200/10 hover:text-teal-300 hover:border-teal-300 focus:outline-none focus:border-teal-300"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Front End Github
             </a>
           </li>
           {/* Project 1 */}
@@ -97,7 +111,7 @@ const Projects = () => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href=""
+                    href="https://membersonly-production-2aaa.up.railway.app/"
                     className="inline-flex items-baseline text-base font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link"
                   >
                     <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
@@ -150,7 +164,7 @@ const Projects = () => {
               />
             </div>
             <a
-              href="https://github.com/YOUR_USERNAME/WHERES_WALDO_REPO_LINK"
+              href="https://github.com/oauguste/photoTagger/tree/main/photoTag"
               className="inline-block px-4 py-2 mt-5 text-sm font-medium transition duration-150 ease-in-out border rounded-full text-slate-200 border-slate-200/10 hover:text-teal-300 hover:border-teal-300 focus:outline-none focus:border-teal-300"
               target="_blank"
               rel="noopener noreferrer"
@@ -165,7 +179,7 @@ const Projects = () => {
               <div className="z-10 sm:order-2 sm:col-span-6">
                 <h3>
                   <a
-                    href=""
+                    href="https://membersonly-production-2aaa.up.railway.app/"
                     className="inline-flex items-baseline text-base font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link"
                   >
                     <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
@@ -228,7 +242,7 @@ const Projects = () => {
               />
             </div>
             <a
-              href="https://github.com/YOUR_USERNAME/WHERES_WALDO_REPO_LINK"
+              href="https://github.com/oauguste/membersOnly"
               className="inline-block px-4 py-2 mt-5 text-sm font-medium transition duration-150 ease-in-out border rounded-full text-slate-200 border-slate-200/10 hover:text-teal-300 hover:border-teal-300 focus:outline-none focus:border-teal-300"
               target="_blank"
               rel="noopener noreferrer"
@@ -310,7 +324,7 @@ const Projects = () => {
               />
             </div>
             <a
-              href="https://github.com/YOUR_USERNAME/WHERES_WALDO_REPO_LINK"
+              href="https://github.com/oauguste/inventoryapplication/tree/main/inventoryApp"
               className="inline-block px-4 py-2 mt-5 text-sm font-medium transition duration-150 ease-in-out border rounded-full text-slate-200 border-slate-200/10 hover:text-teal-300 hover:border-teal-300 focus:outline-none focus:border-teal-300"
               target="_blank"
               rel="noopener noreferrer"
@@ -373,7 +387,7 @@ const Projects = () => {
               />
             </div>
             <a
-              href="https://github.com/YOUR_USERNAME/WHERES_WALDO_REPO_LINK"
+              href="https://github.com/oauguste/portfolioFrontEnd/tree/main/portfolio"
               className="inline-block px-4 py-2 mt-5 text-sm font-medium transition duration-150 ease-in-out border rounded-full text-slate-200 border-slate-200/10 hover:text-teal-300 hover:border-teal-300 focus:outline-none focus:border-teal-300"
               target="_blank"
               rel="noopener noreferrer"
@@ -390,7 +404,7 @@ const Projects = () => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href=""
+                    href="https://legendary-kangaroo-47392e.netlify.app/"
                     className="inline-flex items-baseline text-base font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link"
                   >
                     <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
@@ -439,7 +453,68 @@ const Projects = () => {
               />
             </div>
             <a
-              href="https://github.com/YOUR_USERNAME/WHERES_WALDO_REPO_LINK"
+              href="https://github.com/oauguste/NewWeatherAppJSReact"
+              className="inline-block px-4 py-2 mt-5 text-sm font-medium transition duration-150 ease-in-out border rounded-full text-slate-200 border-slate-200/10 hover:text-teal-300 hover:border-teal-300 focus:outline-none focus:border-teal-300"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Link to Github
+            </a>
+          </li>
+          {/* Project 6 */}
+          <li className="mb-12">
+            <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+              <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+              <div className="z-10 sm:order-2 sm:col-span-6">
+                <h3>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://fascinating-sopapillas-db5282.netlify.app/"
+                    className="inline-flex items-baseline text-base font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link"
+                  >
+                    <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                    <span className="">
+                      Online Organization App{" "}
+                    </span>
+                  </a>
+                </h3>
+                <p className="mt-2 text-sm leading-normal">
+                  ClearSky, a dynamic weather forecasting
+                  platform, was crafted leveraging the
+                  potent capabilities of React.js and the
+                  WeatherAPI. Users can effortlessly search
+                  for weather conditions of a specific
+                  locale.
+                </p>
+                <ul className="flex flex-wrap mt-2">
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center px-3 py-1 text-xs font-medium leading-5 text-teal-300 rounded-full bg-teal-400/10 ">
+                      Javascript
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center px-3 py-1 text-xs font-medium leading-5 text-teal-300 rounded-full bg-teal-400/10 ">
+                      Tailwind Css
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center px-3 py-1 text-xs font-medium leading-5 text-teal-300 rounded-full bg-teal-400/10 ">
+                      HTML
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <img
+                src={
+                  "https://res.cloudinary.com/dkfe00sfi/image/upload/v1696005399/Screenshot_2023-09-29_at_12.35.52_PM_alrjvv.png"
+                }
+                alt=""
+                className="transition border-2 rounded border-slate-200/10 group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+              />
+            </div>
+            <a
+              href="https://github.com/oauguste/ToDO-App-Completed"
               className="inline-block px-4 py-2 mt-5 text-sm font-medium transition duration-150 ease-in-out border rounded-full text-slate-200 border-slate-200/10 hover:text-teal-300 hover:border-teal-300 focus:outline-none focus:border-teal-300"
               target="_blank"
               rel="noopener noreferrer"

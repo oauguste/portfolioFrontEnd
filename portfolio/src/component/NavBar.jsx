@@ -50,8 +50,6 @@ const NavBar = () => {
       if (closestSection) {
         setActive(closestSection.id);
       }
-      console.log("Scrolling...");
-      console.log("Closest Section: ", closestSection);
     };
 
     // Initially set "about" as the default active section
