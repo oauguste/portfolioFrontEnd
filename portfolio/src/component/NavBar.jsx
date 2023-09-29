@@ -1,6 +1,6 @@
-import Login from "./Login";
-import { useAuth } from "../UserAuth";
-import Profile from "./Profile";
+// import Login from "./Login";
+// import { useAuth } from "../UserAuth";
+// import Profile from "./Profile";
 import AboutSection from "./AboutSection";
 import ExperienceSection from "./ExperienceSection";
 import Projects from "./Projects";
